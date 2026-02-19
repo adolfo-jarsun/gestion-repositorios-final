@@ -1,0 +1,25 @@
+
+---
+
+# 📄 2️. docs/graphql-schema.md
+
+```markdown
+# Definición del Esquema GraphQL
+
+## 1. Introducción
+
+El siguiente esquema define la estructura de datos para la gestión de
+usuarios mediante GraphQL. Se establecen tipos, consultas y mutaciones
+principales.
+
+---
+
+## 2. Tipos
+
+```graphql
+type User {
+  id: ID!
+  nombre: String!
+  email: String!
+  activo: Boolean!
+}
