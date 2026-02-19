@@ -1,0 +1,24 @@
+# Diseño de Endpoints REST
+
+Este documento describe de manera general los endpoints REST del sistema.
+
+## Endpoints principales
+
+- GET /usuarios → Obtiene la lista de usuarios.
+- GET /usuarios/{id} → Obtiene un usuario por ID.
+- POST /usuarios → Crea un nuevo usuario.
+- PUT /usuarios/{id} → Actualiza un usuario.
+- DELETE /usuarios/{id} → Elimina un usuario.
+
+## Formato de respuesta
+
+Las respuestas se envían en formato JSON.
+
+Ejemplo:
+
+```json
+{
+  "id": 1,
+  "nombre": "Usuario Ejemplo",
+  "email": "usuario@email.com"
+}
